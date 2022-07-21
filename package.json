@@ -1,13 +1,14 @@
 {
   "name": "fup-curry-limit-core",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "function, curry",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "uglifyjs ./source.js -cmo ./index.js",
     "upload": "npm run build & npm publish"
   },
-  "author": "",
+  "author": "Kleschev Yevhenii <dasx10@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "fup-curry-limit-result-type": "^1.0.0",
